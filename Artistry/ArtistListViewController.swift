@@ -31,7 +31,7 @@ class ArtistListViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     tableView.rowHeight = UITableViewAutomaticDimension
-    tableView.estimatedRowHeight = 160
+    tableView.estimatedRowHeight = 140
   }
   
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -62,7 +62,7 @@ extension ArtistListViewController: UITableViewDataSource {
     
     cell.artistDescription.textAlignment = .center
     cell.artistDescription.backgroundColor = UIColor.yellow
-    cell.artistDescription.preferredMaxLayoutWidth = cell.intrinsicContentSize.width
+//    cell.artistDescription.preferredMaxLayoutWidth = cell.intrinsicContentSize.width
     
     return cell
   }

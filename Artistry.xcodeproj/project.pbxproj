@@ -17,6 +17,7 @@
 		A2D7F31F1C8CE4640097399A /* ArtistListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7F31E1C8CE4640097399A /* ArtistListViewController.swift */; };
 		A2D7F3261C8CE4A30097399A /* artists.json in Resources */ = {isa = PBXBuildFile; fileRef = A2D7F3201C8CE4A30097399A /* artists.json */; };
 		CC1347781EBB939600729D72 /* ArtistDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1347771EBB939600729D72 /* ArtistDetailsCell.swift */; };
+		CC13477A1EBBE51200729D72 /* WorkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1347791EBBE51200729D72 /* WorkTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		A2D7F31E1C8CE4640097399A /* ArtistListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistListViewController.swift; sourceTree = "<group>"; };
 		A2D7F3201C8CE4A30097399A /* artists.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = artists.json; sourceTree = "<group>"; };
 		CC1347771EBB939600729D72 /* ArtistDetailsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistDetailsCell.swift; sourceTree = "<group>"; };
+		CC1347791EBBE51200729D72 /* WorkTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		A2D7F2FC1C8CE3F60097399A = {
 			isa = PBXGroup;
 			children = (
+				CC1347791EBBE51200729D72 /* WorkTableViewCell.swift */,
 				CC1347771EBB939600729D72 /* ArtistDetailsCell.swift */,
 				A2D7F3071C8CE3F60097399A /* Artistry */,
 				A2D7F3061C8CE3F60097399A /* Products */,
@@ -187,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2D7F31D1C8CE44E0097399A /* Artist.swift in Sources */,
+				CC13477A1EBBE51200729D72 /* WorkTableViewCell.swift in Sources */,
 				CC1347781EBB939600729D72 /* ArtistDetailsCell.swift in Sources */,
 				A23F75371C9BADB7006FA46F /* Work.swift in Sources */,
 				A23F75351C9BA757006FA46F /* ArtistDetailViewController.swift in Sources */,
